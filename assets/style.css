@@ -1,0 +1,76 @@
+body {
+    background-image: url(./Colored-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    background-color: rgb(199, 139, 207);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    
+}
+h1 {
+    color: rgb(68, 38, 68);
+    transition: transform ease;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(202, 139, 210, 0.483);
+    height: 100px;
+    width: 100vw;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(68, 38, 68);
+    padding: 20px;
+    border-radius: 10px;
+
+}
+a:hover {
+    background-color: rgba(246, 230, 7, 0.403); 
+    transition: 1s;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.magic_combination {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    transition: transform 1s;
+}
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+.magic_item {
+    border-radius: 10px;
+    
+}   
+
+.magic_combination:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
